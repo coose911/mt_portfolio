@@ -8,6 +8,7 @@ import Contact from './Components/Contact';
 import logo from './images/myUpdatedImage.jpeg'
 
 
+
 const ImageContainer = styled.div`
     & > img {
     width: 20%;
