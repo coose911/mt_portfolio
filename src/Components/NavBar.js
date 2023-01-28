@@ -13,11 +13,11 @@ const NavContainer = styled.div`
     min-height: 500px;
     overflow: auto;
     margin-left: -20px;
+    position: fixed;
 
 `
 
 const LinkContainer = styled.li`
-    color: white;
     display: block;
     text-align: center;
     height: 21px;
@@ -33,10 +33,19 @@ const LinkContainer = styled.li`
     border-radius: 10px;
     cursor: pointer;
     &.actvie {
-        background-color: yellow;
+    background-color: yellow;
     }
 }  
 `
+
+const StyledLink = styled(Link)`
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: black;
+    }
+`;
+
 
 const NavBar = () => {
 
@@ -50,13 +59,13 @@ const NavBar = () => {
     return ( 
         <NavContainer>
             <LinkContainer>
-                <Link to="/">Home</Link>
+                <StyledLink to="/">Home</StyledLink>
             </LinkContainer>
             <LinkContainer>
-                <Link to="/projects">Projects</Link>
+                <StyledLink to="/projects">Projects</StyledLink>
             </LinkContainer>
             <LinkContainer>
-                <Link to="/contact">Contact</Link>
+                <StyledLink to="/contact">Contact</StyledLink>
             </LinkContainer>
         </NavContainer>
     );
