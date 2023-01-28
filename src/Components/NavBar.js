@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
+import m from '../images/transparrent_m_logo.png'
 
 const NavContainer = styled.div`
     background-color: #101010;
@@ -38,6 +39,14 @@ const LinkContainer = styled.li`
 }  
 `
 
+const Mlogo = styled.div`
+    margin-left: -18em;
+    padding: 0;
+    margin-top: -3em;
+    height: 7em;
+
+`
+
 const StyledLink = styled(Link)`
     color: white;
     text-decoration: none;
@@ -58,6 +67,9 @@ const NavBar = () => {
     
     return ( 
         <NavContainer>
+            <Mlogo>
+            <img src={m}/>
+            </Mlogo>
             <LinkContainer>
                 <StyledLink to="/">Home</StyledLink>
             </LinkContainer>
