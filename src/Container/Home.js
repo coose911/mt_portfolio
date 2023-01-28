@@ -73,6 +73,9 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faPython}/>
                             </Icon>
                             <Icon>
+                                <FontAwesomeIcon icon={faReact}/>
+                            </Icon>
+                            <Icon>
                                 <FontAwesomeIcon icon={faJava}/>
                             </Icon>
                             <Icon>
@@ -83,9 +86,6 @@ const Home = () => {
                             </Icon>
                             <Icon>
                                 <FontAwesomeIcon icon={faCss3}/>
-                            </Icon>
-                            <Icon>
-                                <FontAwesomeIcon icon={faReact}/>
                             </Icon>
                         </Icons>
                     </a>

@@ -5,7 +5,7 @@ import Home from './Container/Home';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import logo from './images/myUpdatedImage.jpeg'
+import logo from './images/My_Logo.png'
 
 
 
