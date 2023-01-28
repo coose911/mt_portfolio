@@ -54,7 +54,7 @@ const Home = () => {
             <ParagraphContainer>
                 <Paragraph1>
                     <p>
-                        About me 
+                        <h1>About Me</h1>
                     </p>
                 </Paragraph1>
                 <Paragraph2>
@@ -92,7 +92,7 @@ const Home = () => {
                 </Paragraph2>
                 <Paragraph3>
                     <p>
-                        Background
+                        <h1>My Background</h1>
                     </p>
                 </Paragraph3>
             </ParagraphContainer>
