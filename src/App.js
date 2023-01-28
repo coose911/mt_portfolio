@@ -5,14 +5,14 @@ import Home from './Container/Home';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import logo from './images/myLogo.svg'
+import logo from './images/myUpdatedImage.jpeg'
 
 
 const ImageContainer = styled.div`
     & > img {
-    width: 28%;
-    margin-left: 70%;
-    margin-top: -2em;
+    width: 20%;
+    margin-left: 78%;
+    margin-top: -1em;
     margin-bottom: -8em;
     height: 40%}
 `
