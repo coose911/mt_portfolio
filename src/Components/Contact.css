@@ -1,6 +1,7 @@
-a {
-    display: inline-block;
+ a {
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
     padding: 0;
 }
 
@@ -9,13 +10,12 @@ img {
     height: 8em;
     margin-left: 20em;
     margin-right: -500px;
-    margin-top: 10em;
+    padding: 3em 0;
 
 }
 
 span{
     margin-left: 600px;
-    margin-top: 15em;
     color: black;
     text-decoration: underline;
     text-decoration-color: black;

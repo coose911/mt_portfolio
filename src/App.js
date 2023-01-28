@@ -5,12 +5,29 @@ import Home from './Container/Home';
 import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import logo from './images/myLogo.svg'
+
+
+const ImageContainer = styled.div`
+    & > img {
+    width: 28%;
+    margin-left: 70%;
+    margin-top: -2em;
+    margin-bottom: -8em;
+    height: 40%}
+`
 
 
 function App() {
 
 
   return (
+    <>
+    <div>
+    <ImageContainer>
+    <img src={logo} />
+    </ImageContainer>
+    </div>
     <div>
     <Router>
         <NavBar></NavBar>
@@ -21,6 +38,7 @@ function App() {
         </Routes>
     </Router>
     </div>
+    </>
   );
 }
 
