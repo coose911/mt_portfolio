@@ -1,6 +1,15 @@
 import React from 'react'
 import styled from 'styled-components';
-import myLogo from './images'
+import logo from '../images/myLogo.svg'
+
+const ImageContainer = styled.div`
+    & > img {
+    width: 28%;
+    margin-left: 70%;
+    margin-top: -2em;
+    height: 40%}
+`
+
 
 const Home = () => {
 
@@ -14,8 +23,9 @@ const Home = () => {
     
     return ( 
         <div>
-        <h1>Homepage</h1>
-        <img ></img>
+        <ImageContainer>
+        <img src={logo} />
+        </ImageContainer>
         </div>
     );
 }

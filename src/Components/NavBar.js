@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import styled from 'styled-components';
 
 const NavContainer = styled.div`
-    background-color: #303030;
+    background-color: #101010;
     font-family: Arial, Helvetica, sans-serif;
     width: 170px;
     height: 100%;
@@ -12,25 +12,29 @@ const NavContainer = styled.div`
     z-index: 3;
     min-height: 500px;
     overflow: auto;
-    margin-left: -30px;
+    margin-left: -20px;
 
 `
 
-const LinkContainer = styled.p`
+const LinkContainer = styled.li`
     color: white;
     display: block;
     text-align: center;
     height: 21px;
     top: 50%;
-    margin-top: 200px;
+    margin-top: 100px;
+    margin-left: 1.3em;
     width: 80%;
     list-style-type: none;
     text-transform: uppercase;
     &:hover {
-    background-color: white;
+    background-color: yellow;
     transition-duration: 0.8s;
     border-radius: 10px;
     cursor: pointer;
+    &.actvie {
+        background-color: yellow;
+    }
 }  
 `
 
@@ -45,23 +49,15 @@ const NavBar = () => {
     
     return ( 
         <NavContainer>
-        <ul>
             <LinkContainer>
-            <li>
                 <Link to="/">Home</Link>
-            </li>
             </LinkContainer>
             <LinkContainer>
-            <li>
                 <Link to="/projects">Projects</Link>
-            </li>
             </LinkContainer>
             <LinkContainer>
-            <li>
                 <Link to="/contact">Contact</Link>
-            </li>
             </LinkContainer>
-        </ul>
         </NavContainer>
     );
 }
