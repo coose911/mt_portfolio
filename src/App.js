@@ -11,8 +11,8 @@ import logo from './images/My_logo.png'
 
 const ImageContainer = styled.div`
     & > img {
-    width: 20%;
-    margin-left: 78%;
+    width: 25%;
+    margin-left: 70%;
     margin-top: -1em;
     margin-bottom: -8em;
     height: 40%}
