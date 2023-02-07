@@ -3,25 +3,45 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import styled from 'styled-components';
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hanken+Grotesk:wght@300&family=Quicksand&display=swap');
+</style>
 
 
 const Paragraph1 = styled.div`
     margin-top: 10em;
-    margin-left: 20em;
+    margin-left: 15em;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 3px 20px 0 rgba(36,148,162,1);
+    border: 1px solid rgba(48,75,120,1);
+    border-radius: 35px;
+    padding: 45px;
+    margin-right: 5em;
 
 `
 const Paragraph2 = styled.div`
     margin-top: 10em;
-    margin-left: 20em;
-
-
-
+    margin-left: 15em;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(36,148,162,1);
+    border: 1px solid rgba(48,75,120,1);
+    border-radius: 35px;
+    padding: 45px;
+    margin-right: 5em;
 `
 
 const Paragraph3 = styled.div`
     margin-top: 10em;
-    margin-left: 20em;
-
+    margin-left: 15em;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    box-shadow: 0 8px 32px 0 rgba(36,148,162,1);
+    border: 1px solid rgba(48,75,120,1);
+    border-radius: 35px;
+    padding: 45px;
+    margin-right: 5em;
 `
 
 const ParagraphContainer = styled.div`
@@ -55,11 +75,13 @@ const Home = () => {
                 <Paragraph1>
                     <p>
                         <h1>About Me</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     </p>
                 </Paragraph1>
                 <Paragraph2>
                     <p>
                         <h1>Skills</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     </p>
                     <p>
 
@@ -93,6 +115,7 @@ const Home = () => {
                 <Paragraph3>
                     <p>
                         <h1>My Background</h1>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
                     </p>
                 </Paragraph3>
             </ParagraphContainer>
