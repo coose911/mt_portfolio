@@ -47,6 +47,9 @@ const ParagraphContainer = styled.div`
 `
 
 const Icons = styled.p`
+margin-top: -77px;
+margin-bottom: -60px;
+margin-left: 70px;
 font-size: 4em;
 margin-right: 2px;
 display: flexbox;
@@ -83,25 +86,6 @@ const Home = () => {
                     </p>
                 </Paragraph1>
                 <Paragraph2>
-                    <p>
-                        <h1>Skills</h1>
-                        <p>"Over my many years in prevous careers i have learnt many transferable skills to bring into my new career as a software engineer from,
-                            - Managament 
-                            - Working in a team on large projects 
-                            - Problem Solving
-                            - Project Managment 
-                            - People Skills
-                        During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career from,
-                            - Programming languages below
-                            - Testing - Static, Unit, E2E, using Cypress
-                            - Building projects
-                            - Working with other Developers daily and in projects
-                            - "</p>
-                    </p>
-                    <p>
-
-                    </p>
-                    <a>
                         <Icons>
                             <Icon>
                                 <FontAwesomeIcon icon={faJs}/>
@@ -125,6 +109,25 @@ const Home = () => {
                                 <FontAwesomeIcon icon={faCss3}/>
                             </Icon>
                         </Icons>
+                    <p>
+                        <h1>Skills</h1>
+                        <p>"Over my many years in prevous careers i have learnt many transferable skills to bring into my new career as a software engineer from,
+                            - Managament 
+                            - Working in a team on large projects 
+                            - Problem Solving
+                            - Project Managment 
+                            - People Skills
+                        During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career from,
+                            - Programming languages below
+                            - Testing - Static, Unit, E2E, using Cypress
+                            - Building projects
+                            - Working with other Developers daily and in projects
+                            - "</p>
+                    </p>
+                    <p>
+
+                    </p>
+                    <a>
                     </a>
                 </Paragraph2>
                 <Paragraph3>
