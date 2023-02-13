@@ -1,3 +1,5 @@
+import { faFolder, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
@@ -28,10 +30,6 @@ const LinkContainer = styled.li`
     width: 80%;
     list-style-type: none;
     text-transform: uppercase;
-    &:hover {
-    background-color: yellow;
-    transition-duration: 0.8s;
-    border-radius: 10px;
     cursor: pointer;
     &.actvie {
     background-color: yellow;
@@ -48,10 +46,12 @@ const Mlogo = styled.div`
 `
 
 const StyledLink = styled(Link)`
+    font-size: 35px;
     color: white;
     text-decoration: none;
     &:hover{
-        color: black;
+        color: yellow;
+        transform: scale(1.44);
     }
 `;
 
@@ -71,13 +71,19 @@ const NavBar = () => {
             <img src={m}/>
             </Mlogo>
             <LinkContainer>
-                <StyledLink to="/">Home</StyledLink>
+                <StyledLink to="/">
+                    <FontAwesomeIcon icon={faHome}/>
+                </StyledLink>
             </LinkContainer>
             <LinkContainer>
-                <StyledLink to="/projects">Projects</StyledLink>
+                <StyledLink to="/projects">
+                    <FontAwesomeIcon icon={faFolder}/>
+                </StyledLink>
             </LinkContainer>
             <LinkContainer>
-                <StyledLink to="/contact">Contact</StyledLink>
+                <StyledLink to="/contact">
+                    <FontAwesomeIcon icon={faPhone}/>
+                </StyledLink>
             </LinkContainer>
         </NavContainer>
     );
