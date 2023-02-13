@@ -3,9 +3,7 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import styled from 'styled-components';
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Hanken+Grotesk:wght@300&family=Quicksand&display=swap');
-</style>
+
 
 
 const Paragraph1 = styled.div`
