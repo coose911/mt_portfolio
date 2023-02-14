@@ -76,13 +76,13 @@ const Home = () => {
                 <Paragraph1>
                     <p>
                         <h1>About Me</h1>
-                        <p>"I recently left my previous career to persue my dream in software. 
+                        <p>I recently left my previous career to persue my dream in software. 
                             I am a hard working, enthusiastic and eager to learn software engineering
                             professional with a background in mechanical engineering, sales,
                             management and a passion for technology. I recently graduated from
                             an intensive 16 week Professional Software Development course at
                             CodeClan and I am looking to start a new career in a Software
-                            Engineering position."</p>
+                            Engineering position.</p>
                     </p>
                 </Paragraph1>
                 <Paragraph2>
@@ -111,18 +111,21 @@ const Home = () => {
                         </Icons>
                     <p>
                         <h1>Skills</h1>
-                        <p>"Over my many years in prevous careers i have learnt many transferable skills to bring into my new career as a software engineer from,
-                            - Managament 
-                            - Working in a team on large projects 
-                            - Problem Solving
-                            - Project Managment 
-                            - People Skills
-                        During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career from,
-                            - Programming languages below
-                            - Testing - Static, Unit, E2E, using Cypress
-                            - Building projects
-                            - Working with other Developers daily and in projects
-                            - "</p>
+                                During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career from...
+                            <ul>
+                                <li> Programming languages below </li>
+                                <li> Testing - Static, Unit, E2E, using Cypress </li>
+                                <li> Building projects </li>
+                                <li> Working with other Developers daily and in projects" </li>
+                            </ul>
+                                    Over my many years in prevous careers i have learnt many transferable skills to bring into my new career as a software engineer from...
+                            <ul>
+                                <li> Managament </li>
+                                <li> Working in a team on large projects </li>
+                                <li> Problem Solving </li>
+                                <li> Project Managment  </li>
+                                <li> People Skills </li>
+                            </ul>
                     </p>
                     <p>
 
