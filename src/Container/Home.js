@@ -7,39 +7,59 @@ import styled from 'styled-components';
 
 
 const Paragraph1 = styled.div`
+    background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+    );
     margin-top: 10em;
     margin-left: 15em;
     backdrop-filter: blur(21px);
     -webkit-backdrop-filter: blur(21px);
-    box-shadow: 0 3px 20px 0 rgba(36,148,162,1);
-    border: 1px solid rgba(48,75,120,1);
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
+    border: 1px solid rgba(255,255,255,0.16);
     border-radius: 35px;
     padding: 45px;
     margin-right: 5em;
 
 `
 const Paragraph2 = styled.div`
+    background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+    );
     margin-top: 10em;
     margin-left: 15em;
     backdrop-filter: blur(21px);
     -webkit-backdrop-filter: blur(21px);
-    box-shadow: 0 8px 32px 0 rgba(36,148,162,1);
-    border: 1px solid rgba(48,75,120,1);
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
+    border: 1px solid rgba(255,255,255,0.16);
     border-radius: 35px;
     padding: 45px;
     margin-right: 5em;
+
 `
 
 const Paragraph3 = styled.div`
+    background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.1)
+    );
     margin-top: 10em;
     margin-left: 15em;
+    margin-right: 5em;
+    margin-bottom: 20em;
     backdrop-filter: blur(21px);
     -webkit-backdrop-filter: blur(21px);
-    box-shadow: 0 8px 32px 0 rgba(36,148,162,1);
-    border: 1px solid rgba(48,75,120,1);
+    box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
+    border: 1px solid rgba(255,255,255,0.16);
     border-radius: 35px;
     padding: 45px;
-    margin-right: 5em;
+
+
+
 `
 
 const ParagraphContainer = styled.div`

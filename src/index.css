@@ -7,7 +7,8 @@ body {
   font-family: 'Didact Gothic','Hanken Grotesk' ,'Quicksand', sans-serif;;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #29a8a8;
+  background-image: url('./images/background-1.JPG');
+  background-size: cover;
 }
 
 code {

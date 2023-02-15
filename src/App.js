@@ -6,6 +6,7 @@ import NavBar from './Components/NavBar';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
 import logo from './images/My_logo.png'
+// import myBackGroundImage from './images/background-1'
 
 
 
