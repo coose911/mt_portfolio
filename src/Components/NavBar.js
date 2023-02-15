@@ -1,9 +1,11 @@
-import { faFolder, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faFolder, faHome, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react'
 import { Link } from "react-router-dom"
 import styled from 'styled-components';
 import m from '../images/transparrent_m_logo.png'
+
 
 const NavContainer = styled.div`
     background-color: #101010;
@@ -17,7 +19,6 @@ const NavContainer = styled.div`
     overflow: auto;
     margin-left: -20px;
     position: fixed;
-
 `
 
 const LinkContainer = styled.li`
@@ -33,8 +34,7 @@ const LinkContainer = styled.li`
     cursor: pointer;
     &.actvie {
     background-color: yellow;
-    }
-}  
+    } 
 `
 
 const Mlogo = styled.div`
@@ -55,6 +55,38 @@ const StyledLink = styled(Link)`
     }
 `;
 
+const ContactContainer = styled.li`
+    font-size: 30px;
+    text-align: center;
+    height: 21px;
+    top: 50%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 0.9em;
+    width: 80%;
+    list-style-type: none;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    &.actvie {
+    background-color: yellow;
+    } 
+
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    &:hover{
+        color: yellow;
+        transform: scale(1.44);
+    }
+
+    
+`
 
 const NavBar = () => {
 
@@ -85,6 +117,17 @@ const NavBar = () => {
                     <FontAwesomeIcon icon={faPhone}/>
                 </StyledLink>
             </LinkContainer>
+            <ContactContainer>
+                <a href="https://www.linkedin.com/in/marcus-thomson-11076885/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faLinkedinIn} color='white'/>
+                </a>
+                <a href="https://github.com/coose911?tab=repositories" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faGithub} color='white'/>
+                </a>
+                <a>
+                    <FontAwesomeIcon icon={faEnvelope} color='white'/>
+                </a>
+            </ContactContainer>
         </NavContainer>
     );
 }

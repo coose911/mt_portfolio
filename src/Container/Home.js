@@ -18,11 +18,29 @@ const Paragraph1 = styled.div`
     -webkit-backdrop-filter: blur(21px);
     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
     border: 1px solid rgba(255,255,255,0.16);
-    border-radius: 35px;
+    border-radius: 10px;
     padding: 45px;
     margin-right: 5em;
-
 `
+
+
+// const Paragraph1 = styled.div`
+//     background: linear-gradient(
+//     135deg,
+//     rgba(255, 255, 255, 0.1),
+//     rgba(255, 255, 255, 0.1)
+//     );
+//     backdrop-filter: blur(21px);
+//     -webkit-backdrop-filter: blur(21px);
+//     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
+//     border: 1px solid rgba(255,255,255,0.16);
+//     border-radius: 8px;
+//     padding: 20px;
+//     scroll-snap-align: start;
+//     flex: 0 0 100%;
+//     transform: translateY(0);
+// `
+
 const Paragraph2 = styled.div`
     background: linear-gradient(
     135deg,
@@ -35,7 +53,7 @@ const Paragraph2 = styled.div`
     -webkit-backdrop-filter: blur(21px);
     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
     border: 1px solid rgba(255,255,255,0.16);
-    border-radius: 35px;
+    border-radius: 10px;
     padding: 45px;
     margin-right: 5em;
 
@@ -55,14 +73,20 @@ const Paragraph3 = styled.div`
     -webkit-backdrop-filter: blur(21px);
     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
     border: 1px solid rgba(255,255,255,0.16);
-    border-radius: 35px;
+    border-radius: 10px;
     padding: 45px;
-
-
-
 `
 
 const ParagraphContainer = styled.div`
+    /* margin-top: 10em;
+    margin-left: 20em;
+    margin-right: 10em;
+    display: flex;
+    overflow-x: scroll;
+    gap: 12px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 24px;
+    border-radius: 20px; */
 
 `
 
@@ -131,12 +155,14 @@ const Home = () => {
                         </Icons>
                     <p>
                         <h1>Skills</h1>
-                                During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career from...
+                                During my time at CodeClan on the professional software engineering course i have been able to expand and contribute new skills to aid me in my new career including
                             <ul>
-                                <li> Programming languages below </li>
+                                <li> Programming languages above </li>
                                 <li> Testing - Static, Unit, E2E, using Cypress </li>
                                 <li> Building projects </li>
-                                <li> Working with other Developers daily and in projects" </li>
+                                <li> Working with other Developers daily </li>
+                                <li> Working as a team on projects </li>
+                                <li> Using different methodologies like Agile</li>
                             </ul>
                                     Over my many years in prevous careers i have learnt many transferable skills to bring into my new career as a software engineer from...
                             <ul>
@@ -145,6 +171,8 @@ const Home = () => {
                                 <li> Problem Solving </li>
                                 <li> Project Managment  </li>
                                 <li> People Skills </li>
+                                <li> Working under pressure </li>
+                                <li> Working to deadlines </li>
                             </ul>
                     </p>
                     <p>
