@@ -60,7 +60,7 @@ const Projects = () => {
             <ProjectContainer>
                 <div>
                     <ProjectOne>
-                        <h1>First Solo Project</h1>
+                        <h1>Solo Project</h1>
                         <p>To create a habit tracking app which will track the consumption of breaks, coffee and water.
                             It will include a Diary section and a seperate page for breathing.
                             The aim of this app is to aid busy people in taking regular breaks to avoid burn out and keep track.
@@ -74,11 +74,14 @@ const Projects = () => {
                         </a>
                     </ProjectOne>
                     <ProjectTwo>
-                        <h1>First Group Project</h1>
+                        <h1>Group Project</h1>
                         <p>To create a habit tracking app which will track the consumption of breaks, coffee and water.
                             It will include a Diary section and a seperate page for breathing.
                             The aim of this app is to aid busy people in taking regular breaks to avoid burn out and keep track.
                         </p>
+                        <video controls width='450' height='250'>
+                            <source src='../Recordings/Solo-project-recording.mov' type="video/quicktime" />
+                        </video>
                         <a href="https://github.com/coose911/Breaktime_App_Project" >
                             <FontAwesomeIcon icon ={faGithub} color='black'/>
                             Link to Project
