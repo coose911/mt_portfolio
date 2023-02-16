@@ -12,45 +12,6 @@ import gImage2 from '../Project_2_images/2.png'
 import gImage3 from '../Project_2_images/3.png'
 import gImage4 from '../Project_2_images/4.png'
 
-// const ProjectOne = styled.div`
-//     margin-left: 25px;
-//     margin-top: 5em;
-//     /* display: inline-block; */
-//     width: 90%;
-//     height: 80%;
-//     flex: 1 0 200px;
-//     background: linear-gradient(
-//     135deg,
-//     rgba(255, 255, 255, 0.1),
-//     rgba(255, 255, 255, 0.1)
-//     );
-//     backdrop-filter: blur(21px);
-//     -webkit-backdrop-filter: blur(21px);
-//     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
-//     border: 1px solid rgba(255,255,255,0.16);
-//     border-radius: 10px;
-//     padding: 45px;
-// `
-
-// const ProjectTwo = styled.div`
-//     margin-left: 25px;
-//     margin-top: 5em;
-//     /* display: inline-block; */
-//     width: 90%;
-//     height: 80%;
-//     flex: 1 0 200px;
-//     background: linear-gradient(
-//     135deg,
-//     rgba(255, 255, 255, 0.1),
-//     rgba(255, 255, 255, 0.1)
-//     );
-//     backdrop-filter: blur(21px);
-//     -webkit-backdrop-filter: blur(21px);
-//     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
-//     border: 1px solid rgba(255,255,255,0.16);
-//     border-radius: 10px;
-//     padding: 45px;
-// `
 
 const ProjectContainer = styled.div`
     gap: 2px;
