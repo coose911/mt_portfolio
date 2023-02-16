@@ -1,0 +1,43 @@
+.contactContainer{
+    font-size: 30px;
+    text-align: center;
+    height: 21px;
+    top: 50%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-left: 0.6em;
+    width: 80%;
+    list-style-type: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactContainer :active {
+    background-color: yellow;
+} 
+
+.contactContainer :hover {
+        color: yellow;
+        transform: scale(1.22);
+    }
+
+
+.linkedInIcon{
+    margin-bottom: 1em;
+}
+
+.githubIcon{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.emailIcon{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
