@@ -12,7 +12,7 @@ const Paragraph1 = styled.div`
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
     );
-    margin-top: 10em;
+    margin-top: 8em;
     margin-left: 15em;
     backdrop-filter: blur(21px);
     -webkit-backdrop-filter: blur(21px);
@@ -47,7 +47,7 @@ const Paragraph2 = styled.div`
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
     );
-    margin-top: 8em;
+    margin-top: 4em;
     margin-left: 15em;
     backdrop-filter: blur(21px);
     -webkit-backdrop-filter: blur(21px);
@@ -65,7 +65,7 @@ const Paragraph3 = styled.div`
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.1)
     );
-    margin-top: 8em;
+    margin-top: 4em;
     margin-left: 15em;
     margin-right: 5em;
     margin-bottom: 20em;
