@@ -19,9 +19,7 @@
 
 .solo-project-section > section {
     margin-top: 4em;
-    /* margin-right: 200px; */
     margin-left: -8em;
-    /* padding-right: 220px; */
     display: flex;
     height: 20rem;
     width: 20rem;
@@ -68,9 +66,7 @@
 
 .group-project-section > section {
     margin-top: 4em;
-    /* margin-right: 200px; */
     margin-left: -8em;
-    /* padding-right: 220px; */
     display: flex;
     height: 20rem;
     width: 20rem;

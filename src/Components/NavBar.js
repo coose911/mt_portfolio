@@ -56,10 +56,6 @@ const NavBar = () => {
 
 
 
-
-
-
-
     
     return ( 
         <NavContainer>

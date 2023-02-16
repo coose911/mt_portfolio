@@ -23,24 +23,6 @@ const Paragraph1 = styled.div`
     margin-right: 5em;
 `
 
-
-// const Paragraph1 = styled.div`
-//     background: linear-gradient(
-//     135deg,
-//     rgba(255, 255, 255, 0.1),
-//     rgba(255, 255, 255, 0.1)
-//     );
-//     backdrop-filter: blur(21px);
-//     -webkit-backdrop-filter: blur(21px);
-//     box-shadow: 0 3px 20px 0 rgba(0,0,0,0.36);
-//     border: 1px solid rgba(255,255,255,0.16);
-//     border-radius: 8px;
-//     padding: 20px;
-//     scroll-snap-align: start;
-//     flex: 0 0 100%;
-//     transform: translateY(0);
-// `
-
 const Paragraph2 = styled.div`
     background: linear-gradient(
     135deg,
@@ -78,18 +60,8 @@ const Paragraph3 = styled.div`
 `
 
 const ParagraphContainer = styled.div`
-    /* margin-top: 10em;
-    margin-left: 20em;
-    margin-right: 10em;
-    display: flex;
-    overflow-x: scroll;
-    gap: 12px;
-    scroll-snap-type: x mandatory;
-    scroll-padding: 24px;
-    border-radius: 20px; */
 
 `
-
 const Icons = styled.p`
 margin-top: -77px;
 margin-bottom: -60px;
