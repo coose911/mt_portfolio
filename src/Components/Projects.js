@@ -80,7 +80,7 @@ const Projects = () => {
                             <img  src={image2} />
                             <img  src={image1} />
                         </section>
-                        <a class='gitLink' href="https://github.com/coose911/First_Solo_Project" >
+                        <a class='gitLink' href="https://github.com/coose911/First_Solo_Project" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon ={faGithub} color='black'/>
                             Link to Solo Project
                         </a>
@@ -98,7 +98,7 @@ const Projects = () => {
                             <img  src={gImage2} />
                             <img  src={gImage1} />
                         </section>
-                        <a class='gitLink' href="https://github.com/coose911/Breaktime_App_Project" >
+                        <a class='gitLink' href="https://github.com/coose911/Breaktime_App_Project" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon ={faGithub} color='black'/>
                             Link to Group Project
                         </a>
