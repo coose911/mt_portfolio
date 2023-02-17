@@ -31,7 +31,7 @@ const Projects = () => {
                 <div>
                     <div class='solo-project-section'>
                         <h1>Solo Project</h1>
-                        <h3>Python | SQL | Jinja | HTML | CSS</h3>
+                        <h3>Python | SQL | Jinja | HTML | CSS | Flask</h3>
                         <p>To create a Gym management system that allows the user to add, edit and delete members and classes.
                             Allow the user to book members onto certain classes while storing all the data on a PostrSQL database using Flask.
                         </p>
@@ -48,7 +48,7 @@ const Projects = () => {
                     </div>
                     <div class='group-project-section'>
                         <h1>Group Project</h1>
-                        <h3>JavaScript | React | CSS | </h3>
+                        <h3>JavaScript | React | MongoDB | Express | CSS</h3>
                         <p>To create a habit tracking app which will track the consumption of breaks, coffee and water.
                             It will include a Diary section and a seperate page for breathing.
                             The aim of this app is to aid the user taking regular breaks to avoid burn out and keep track of consumption storing the data in a database (MongoDB) using Express server.
