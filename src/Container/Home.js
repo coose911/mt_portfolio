@@ -87,7 +87,7 @@ const Home = () => {
                 <Paragraph1>
                     <p>
                         <h1>About Me</h1>
-                        <p>I recently left my previous career to persue my dream in software. 
+                            <p>Welcome to my portfolio i recently left my previous career to persue my dream in software. 
                             I am a hard working, enthusiastic and eager to learn software engineering
                             professional with a background in mechanical/hydraulic engineering, sales,
                             management and a passion for technology. I recently graduated from
