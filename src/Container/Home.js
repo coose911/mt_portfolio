@@ -87,7 +87,7 @@ const Home = () => {
                 <Paragraph1>
                     <p>
                         <h1>About Me</h1>
-                            <p>Welcome to my portfolio i recently left my previous career to persue my dream in software. 
+                            <p>Welcome to my portfolio. I recently left my previous career to pursue my dream in software. 
                             I am a hard working, enthusiastic and eager to learn software engineering
                             professional with a background in mechanical/hydraulic engineering, sales,
                             management and a passion for technology. I recently graduated from
@@ -151,7 +151,7 @@ const Home = () => {
                 <Paragraph3>
                     <p>
                         <h1>My Background</h1>
-                        <p>I served my apprenticeship at 19 as a mechanical engineer where i dealt with undustrial machinery like motors, gearboxes, fabrictaion etc i as involved in designing and building equipemnt and also some seriously big projects. From there i moved into oil and gas and became a hydraulic engineer where i dealt with lifting equipment before moving into high pressure builds for sub sea equipemnt. I gave this up to take on the family business in the automotive industry where i ran the business for a number of years. It was here where i decided to give it up to pursue a career in software which is something i have always been interested in from a young age.</p>
+                        <p>I served my apprenticeship at 19 as a mechanical engineer where I dealt with industrial machinery like motors, gearboxes, fabrication etc I was involved in designing and building equipment. While working at ECV I was part of a number of large projects involving teams from various industries. From there I moved into oil and gas and became a hydraulic engineer where I dealt with lifting equipment before moving into high pressure builds for sub sea equipment. I gave this up to take on the family business in the automotive industry where I ran the business for a number of years. It was here where I decided to give it up to pursue a career in software which is something I have always been interested in from a young age.</p>
                     </p>
                 </Paragraph3>
             </ParagraphContainer>
