@@ -31,12 +31,12 @@ function App() {
     </ImageContainer>
     </div>
     <div>
-    <Home></Home>
     <Router>
         <NavBar></NavBar>
         <Routes>
             <Route exact path="/" element={ <Home/>} />
             <Route exact path="/projects" element={ <Projects/>} />
+            <Route path="*" element={<Navigate to="/" />} />
         </Routes>
     </Router>
     </div>
