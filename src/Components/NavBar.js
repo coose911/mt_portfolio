@@ -85,7 +85,7 @@ const NavBar = () => {
                 <a class='githubIcon' href="https://github.com/coose911?tab=repositories" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faGithub} color='white'/>
                 </a>
-                <a class='emailIcon' href='mailto:marcus.thomson91@gmail.com'>
+                <a class='emailIcon' href="mailto:marcus.thomson91@gmail.com" target="blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faEnvelope} color='white'/>
                 </a>
             </div>
