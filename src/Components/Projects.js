@@ -38,7 +38,7 @@ const Projects = () => {
                 <div>
                 <div class='robit'>
                         <h1>Robit 2D Game</h1>
-                        <h3>C# | Unity | 2 Weeks</h3>
+                        <h3>C# | Unity | 2 Weeks group project</h3>
                         <p>To build a 2D game  using Unity and writing in C#. The game was to be a space adventure game with  player and enemies, score/collectables and as much functionality as timely possible.
                             We also wanted to create our own characters using pixel art along with animation. We managed to design and animate the player (Robit) and the enemies.
                             This game allows the player to operate Robit while interacting with enemies and dodge obstacles like falling rocks/spikes and swinning morning stars.
