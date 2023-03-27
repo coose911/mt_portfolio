@@ -50,7 +50,7 @@ const Projects = () => {
                             <img  src={uImage4} />
                             <img  src={uImage5} />
                         </section>
-                        <a class='gitLink' href="https://github.com/coose911/Breaktime_App_Project" target="_blank" rel="noreferrer">
+                        <a class='gitLink' href="https://github.com/CrispyBread1/Robit" target="_blank" rel="noreferrer">
                             <FontAwesomeIcon icon ={faGithub} color='black'/>
                             Link to Group Project
                         </a>
