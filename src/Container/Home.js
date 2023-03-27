@@ -91,7 +91,7 @@ const Home = () => {
                             I am a hard working, enthusiastic and eager to learn software engineering
                             professional with a background in mechanical/hydraulic engineering, sales,
                             management and a passion for technology. I recently graduated from
-                            an intensive 16 week Professional Software Development course at
+                            a Professional Software Development course at
                             CodeClan and I am looking to start a new career in a Software
                             Engineering position.</p>
                     </p>
