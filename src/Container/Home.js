@@ -92,7 +92,7 @@ const Home = () => {
                             professional with a background in mechanical/hydraulic engineering, sales,
                             management and a passion for technology. I recently graduated from
                             a Professional Software Development course at
-                            CodeClan and I am looking to start a new career in a Software
+                            <b> CodeClan </b> and I am looking to start a new career in a Software
                             Engineering position.</p>
                     </p>
                 </Paragraph1>
